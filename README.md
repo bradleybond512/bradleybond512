@@ -8,7 +8,7 @@
 
 ### [World Monitor — macOS Native](https://github.com/bradleybond512/worldmonitor-macos)
 
-> A native macOS geopolitical intelligence platform with 50+ real-time data panels, a live cyber threat map, AI-powered country briefs, and a 3D WebGL globe.
+> A native macOS geopolitical intelligence platform with 60+ real-time data panels, a live cyber threat map, AI-powered country briefs, space weather, disease surveillance, air quality tracking, and a 3D WebGL globe.
 
 [![Latest Release](https://img.shields.io/github/v/release/bradleybond512/worldmonitor-macos?style=for-the-badge&logo=apple&logoColor=white&color=000000)](https://github.com/bradleybond512/worldmonitor-macos/releases/latest)
 [![Stars](https://img.shields.io/github/stars/bradleybond512/worldmonitor-macos?style=for-the-badge&color=f59e0b)](https://github.com/bradleybond512/worldmonitor-macos/stargazers)
@@ -18,11 +18,16 @@
 **What it does:**
 - 🌍 **Live cyber threat map** — 500 IOCs geo-plotted in real-time (C2 servers, malware, phishing)
 - 🚨 **Alert Center** — persistent history of intelligence signals and breaking alerts with unread badge
+- 🔔 **Native macOS notifications** — OS notification center alerts for critical breaking events
 - 🤖 **AI country briefs** — Claude · Groq · OpenRouter · local Ollama, with World Bank economic context
-- 🛰️ **Satellite fire & earthquake tracking** — FIRMS VIIRS + USGS M4.5+ seismic data
+- 🛰️ **Space weather** — NOAA SWPC Kp index, solar wind, Bz, X-ray flares, geomagnetic storm alerts
+- 🦠 **Disease outbreaks** — WHO Disease Outbreak News + ReliefWeb health situation reports
+- 💨 **Air quality** — Open-Meteo global AQI for 18 major cities (PM2.5, ozone, NO₂)
+- 🔥 **Satellite fire & earthquake tracking** — FIRMS VIIRS + USGS M4.5+ seismic data
 - ✈️ **Military flight & vessel monitoring** — ADS-B + AIS in real-time
 - 📊 **Market surveillance** — macro radar, BTC ETF flows, stablecoin peg health, ETF tracker
 - 🗺️ **40+ map layers** — conflicts, bases, nuclear facilities, cables, pipelines, GPS jamming zones
+- 🔐 **Security hardened** — bundle ID verification, CSP hardening, href injection protection
 
 ---
 
@@ -34,7 +39,7 @@
 | Frontend | TypeScript · Vite · Vanilla TS |
 | Map | MapLibre GL JS · deck.gl (WebGL) |
 | AI | Anthropic Claude · Groq · OpenRouter · Ollama |
-| Data | USGS · NASA FIRMS · UCDP · Feodo · URLhaus · World Bank · ADS-B · AIS |
+| Data | USGS · NASA FIRMS · UCDP · Feodo · URLhaus · World Bank · ADS-B · AIS · NOAA SWPC · WHO · Open-Meteo |
 | Backend | Vercel Edge Functions · Redis |
 
 ---
